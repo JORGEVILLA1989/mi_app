@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen3"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="104dp"
+        android:text="Bienvenido!"
+        android:textSize="50sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Registro"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="348dp"
+        android:text="Registro"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Productos"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="464dp"
+        android:text="Productos"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Presupuestos"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="580dp"
+        android:text="Presupuestos"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Contactos"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="692dp"
+        android:text="Contactos"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Comunidad"
+        android:layout_width="248dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="800dp"
+        android:text="Comunidad"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

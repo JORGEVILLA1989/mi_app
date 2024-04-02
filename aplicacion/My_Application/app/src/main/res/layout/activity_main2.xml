@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen2"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="186dp"
+        android:layout_height="47dp"
+        android:text="Registar"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <EditText
+        android:id="@+id/imput_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingrese su nombre"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <EditText
+        android:id="@+id/imput_apellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingrese su apellido"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <EditText
+        android:id="@+id/imput_correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingrese su correo"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <EditText
+        android:id="@+id/imput_contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ingrese su contraseña"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <Button
+        android:id="@+id/craer_cuenta"
+        android:layout_width="172dp"
+        android:layout_height="48dp"
+        android:text="craer_cuenta"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <Button
+        android:id="@+id/inicio_seccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="si ya tienes cuenta inicia seccion"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="631dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
